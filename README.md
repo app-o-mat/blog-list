@@ -10,4 +10,4 @@ And then watch this series to start the Blog List project
 
 https://github.com/app-o-mat/blog-list
 
-You can grab a completed `www` and `lib` folder from this repository.
+You can grab a completed `www` and `www/lib` folder from this repository.
