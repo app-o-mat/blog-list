@@ -46,7 +46,7 @@ appomat.app = {
 	
 	get_blog_data: function() {
 		var app = this;
-		$.get("http://app-o-mat.com/videofeed/", function(data) {
+		$.get("https://app-o-mat.com/videofeed/", function(data) {
 			app.blogData= $(data).find("item").map(function(i, item) {
 				return { 
 					url: $(item).find("link").text(), 
@@ -80,8 +80,7 @@ appomat.app = {
 	},
 
 	onDeviceReady: function() {
-		FastClick.attach(document.body);
-		var ref = window.open('http://apache.org', '_blank', 'location=yes');
+		FastClick.attach(document.body);		
     }
 
 };
